@@ -64,7 +64,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://batoolfatima2135.github.io/)
+- [Live Demo Link](https://batoolfatima2135.github.io/react-todo-app)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -85,7 +85,7 @@ In order to run this project you need:
 
 Clone this repository to your desired folder:
 <code>
-  git clone https://github.com/batoolfatima2135/math-magicians.git
+  git clone https://github.com/batoolfatima2135/react-todo-app
   cd math-magicians
 </code>
 

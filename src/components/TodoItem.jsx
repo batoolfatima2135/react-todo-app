@@ -1,6 +1,7 @@
 /* eslint-disable import/no-extraneous-dependencies */
 import PropTypes from 'prop-types';
 import { useState } from 'react';
+import { NavLink } from 'react-router-dom';
 import { FaTrash } from 'react-icons/fa';
 import { AiFillEdit } from 'react-icons/ai';
 import 'bootstrap/dist/css/bootstrap.css';
@@ -49,7 +50,7 @@ const TodoItem = ({
           {!user && (
             <>
               <span className="mx-2 text-danger">
-                Login to Edit
+                <NavLink to="/login" className=" text-sucess">Login to Edit</NavLink>
               </span>
               <button type="button" className="btn btn-success mx-1" disabled>
                 <AiFillEdit className="mx-1" size="21px" />
